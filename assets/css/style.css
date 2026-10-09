@@ -1,0 +1,70 @@
+:root {
+  /* Core backgrounds */
+  --bg-light: #fcf9f3;
+  --bg-dark: #040e14;
+
+  /* Text colors */
+  --text-main: #040e14;      /* for light backgrounds */
+  --text-light: #fcf9f3;     /* for dark backgrounds */
+  --text-muted: #6e8998;     /* secondary text on light bg */
+
+  /* Brand colors */
+  --primary: #132936;        /* headings on light bg */
+  --secondary: #506d7f;      /* subheadings, borders */
+
+  /* Accents */
+  --accent: #efd1c5;         /* highlight on dark bg */
+}
+
+
+
+.cal-sans-regular {
+  font-family: "Cal Sans", sans-serif !important;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.inter-font {
+  font-family: 'Inter', sans-serif !important;
+  font-weight: 200 !important;
+}
+
+.navbar .breadcrumb,
+.navbar .breadcrumb-item,
+.navbar .breadcrumb-item a {
+  font-size: 0.8rem !important;
+  
+}
+
+
+.custom-color { color: #fdf0e5; /* your HEX color */ }
+
+.main-section{
+  background-color: var(--bg-light);
+  padding: 2rem 0;
+
+}
+:root {
+  --brand-light: #e6f2ff;
+}
+
+.navbar .nav-link {
+  color: var(--brand-light);
+}
+
+.navbar .nav-link:active,
+.navbar .nav-link:focus,
+.navbar .nav-link.active {
+  background: none !important;
+  background-color: transparent !important;
+}
+
+.hero-title {
+  font-size: clamp(2.5rem, 7vw, 6rem);
+}
+
+.heading-large {
+  font-size: 4.5rem;
+  color: #132936;
+}
+
