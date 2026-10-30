@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-MindCare is a one-page responsive web application designed to provide a supportive and non-judgemental space for individuals seeking to improve their mental health. The website offers information about various mental health services and encourages users to reach out for support.
+You are not alone is a one-page responsive web application designed to provide a supportive and non-judgemental space for individuals seeking to improve their mental health. The website offers information about various mental health services and encourages users to reach out for support.
 
 ## User Value
 
@@ -24,8 +24,7 @@ MindCare is a one-page responsive web application designed to provide a supporti
 
 - HTML5 with semantic markup
 - CSS3 with custom properties and responsive design
-- Bootstrap 5 for layout and components
-- JavaScript for interactivity (smooth scrolling and form handling)
+- Bootstrap5
 
 ## Deployment
 
