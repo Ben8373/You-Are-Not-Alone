@@ -66,5 +66,4 @@ The application is deployed to []
 
 - Add user testimonials section
 - Implement blog/news area
-- Add multilingual support
 - Integrate with mental health APIs for resources
