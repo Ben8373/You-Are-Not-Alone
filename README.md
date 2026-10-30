@@ -28,7 +28,7 @@ You are not alone is a one-page responsive web application designed to provide a
 
 ## Deployment
 
-The application is deployed to [].
+The application is deployed to []
 
 ### Deployment Steps
 
