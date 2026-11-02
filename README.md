@@ -12,6 +12,10 @@ You are not alone is a one-page responsive web application designed to provide a
 - **Responsive Design**: Works seamlessly across all devices
 - **Interactive Elements**: Contact form with immediate feedback
 
+## Wireframes
+
+![]
+
 ## Features
 
 - **Hero Section**: Inspiring message with call-to-action
