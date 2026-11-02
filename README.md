@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-MindCare is a one-page responsive web application designed to provide a supportive and non-judgemental space for individuals seeking to improve their mental health. The website offers information about various mental health services and encourages users to reach out for support.
+You are not alone is a one-page responsive web application designed to provide a supportive and non-judgemental space for individuals seeking to improve their mental health. The website offers information about various mental health services and encourages users to reach out for support.
 
 ## User Value
 
@@ -24,34 +24,22 @@ MindCare is a one-page responsive web application designed to provide a supporti
 
 - HTML5 with semantic markup
 - CSS3 with custom properties and responsive design
-- Bootstrap 5 for layout and components
-- JavaScript for interactivity (smooth scrolling and form handling)
+- Bootstrap5
 
 ## Deployment
 
-The application is deployed to [GitHub Pages/Netlify/Vercel - choose your platform].
+The application is deployed to []
 
 ### Deployment Steps
 
 1. Ensure all code is committed to Git repository
 2. Remove any commented-out code
 3. Test all links and functionality
-4. Deploy to chosen cloud platform
+4. Deploy to GitHub Pages
 5. Verify deployment matches development version
 
 ## Screenshots
 
-### Desktop View
-![Desktop Screenshot](screenshots/desktop.png)
-*Full desktop layout showing hero section and navigation*
-
-### Mobile View
-![Mobile Screenshot](screenshots/mobile.png)
-*Responsive mobile design with collapsible navigation*
-
-### Services Section
-![Services Screenshot](screenshots/services.png)
-*Card-based layout showcasing different mental health services*
 
 ## Accessibility
 
@@ -78,5 +66,4 @@ The application is deployed to [GitHub Pages/Netlify/Vercel - choose your platfo
 
 - Add user testimonials section
 - Implement blog/news area
-- Add multilingual support
 - Integrate with mental health APIs for resources
