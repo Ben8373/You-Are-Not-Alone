@@ -68,3 +68,9 @@
   color: #132936;
 }
 
+#mission-container {
+  position: relative;
+  text-align: center;
+  padding: 0;
+}
+
