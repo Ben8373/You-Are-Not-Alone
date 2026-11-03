@@ -48,10 +48,15 @@
   --brand-light: #e6f2ff;
 }
 
-.navbar .nav-link {
-  color: var(--brand-light);
+.navbar-nav {
+  gap: 5rem  !important; 
 }
 
+
+.navbar .nav-link {
+  color: var(--brand-light);
+
+}
 .navbar .nav-link:active,
 .navbar .nav-link:focus,
 .navbar .nav-link.active {
