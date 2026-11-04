@@ -29,12 +29,7 @@
   font-weight: 200 !important;
 }
 
-.navbar .breadcrumb,
-.navbar .breadcrumb-item,
-.navbar .breadcrumb-item a {
-  font-size: 0.8rem !important;
-  
-}
+
 
 
 .custom-color { color: #fdf0e5; /* your HEX color */ }
