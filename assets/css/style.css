@@ -49,7 +49,11 @@
 }
 
 .navbar-nav {
-  gap: 5rem  !important; 
+  display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    list-style: none !important;
+    padding-left: 0 !important;
 }
 
 
