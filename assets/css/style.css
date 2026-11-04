@@ -50,10 +50,20 @@
   justify-content: center !important;
   align-items: center !important;
 }
-.navbar .nav-link {
-  color: var(--brand-light);
+
+.navbar {
+  position: absolute;
+  width: 50%;
+  z-index: 10;
+  max-width: 1500px;
 
 }
+.navbar .nav-link {
+  color: #fcf9f3 !important;
+
+}
+
+
 .navbar .nav-link:active,
 .navbar .nav-link:focus,
 .navbar .nav-link.active {
