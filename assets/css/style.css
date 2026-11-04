@@ -48,7 +48,7 @@
     flex-direction: row !important;
     justify-content: center !important;
     list-style: none !important;
-    padding-left: 0 !important;
+    
 }
 
 
@@ -75,7 +75,7 @@
 #mission-container {
   position: relative;
   text-align: center;
-  padding: 0;
+  padding: 20px;
 }
 
 #contact-section {
