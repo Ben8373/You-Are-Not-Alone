@@ -64,6 +64,9 @@
   text-align: right;
 }
 
+.navbar-nav {
+  gap: 50px;
+}
 
 .navbar .nav-link {
   color: #fcf9f3 !important;
@@ -71,7 +74,6 @@
 }
 
 
-.navbar .nav-link:active,
 .navbar .nav-link:focus,
 .navbar .nav-link.active {
   background: none !important;
