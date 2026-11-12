@@ -52,11 +52,16 @@
 }
 
 .navbar {
+  padding-top: 1rem;
   position: absolute;
   width: 50%;
   z-index: 10;
   max-width: 1500px;
 
+}
+
+.navbar-collapse {
+  text-align: right;
 }
 
 
@@ -73,8 +78,24 @@
   background-color: transparent !important;
 }
 
+.navbar-toggler {
+  border: none;
+  background: none;
+ 
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(252,249,243,1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
 .hero-title {
-  font-size: clamp(2.5rem, 7vw, 6rem);
+  padding-top: 1rem;
+  font-size: clamp(2rem, 8vw, 4rem);
+  line-height: 1.1;
 }
 
 
