@@ -45,12 +45,10 @@
   --brand-light: #e6f2ff;
 }
 
-
-
-.container-fluid {
-  display: flex !important;
-  justify-content: center !important;
-  align-items: center !important;
+.navbar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .navbar {
@@ -60,6 +58,8 @@
   max-width: 1500px;
 
 }
+
+
 .navbar .nav-link {
   color: #fcf9f3 !important;
 
@@ -78,17 +78,15 @@
 }
 
 
-.mssion-title {
+.mission-title {
   font-size: clamp(1.5rem, 7vw, 1.5rem);
   white-space: nowrap;
 }
 
-#mission-container {
-  width: 100%;
-  
-}
 
-.mission-content {
+
+.mission-title {
+  top: 15%;
   color:#fcf9f3;
   text-align: center;
   z-index: 2;
@@ -101,51 +99,110 @@
 .mission-content h2 {
   font-size: clamp(2.5rem, 7vw, 4rem);
   margin-bottom: 1rem;
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 0.2rem;
 }
 
 
-mission-content p {
-  font-size: 1.8rem;
+.mission-content-text {
+  font-family: "Cal Sans", sans-serif ;
+  font-size: 1.25rem;
+  color:#fcf9f3;
+  text-align: center;
+  
 }
 
 .mission-image-frame {
+    position: relative;
     width: 100%;
-    padding: 5rem;
-  padding-left: 5rem;
-    padding-right: 5rem;
+    padding: 4rem !important;
     background: #506d7f;
     margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.mission-image {
+    width: 100%;
+    height: 600px;
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
+}
+
+
+.mission-overlay {
     position: relative;
 }
 
+
+.values-container {
+  position: absolute;
+  bottom: 3rem;
+  left: 50%;
+  transform: translateX(-50%);
+
+  width: 90%;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  margin-top: 20rem;
+ 
+}
+
+.value-card {
+    height: 275px;
+    background: #040e14;
+    color: white;
+    padding: 1.5rem;
+    text-align: center;
+    position: relative;
+    
+}
+
+
 #contact-section {
     position: relative;
-    padding: 0;
+    width: 100%;
+    height: 550px;
+    background: #ccc7b6;
+    padding: 3rem;
 }
 
 .contact-image {
     width: 100%;
-    height: 500px;
+    height: 1000px;
     object-fit: cover;
+    display: block;
+}
+
+.contact-image-frame {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    
 }
 
 .contact-overlay {
     position: absolute;
-
     top: 50%;
     left: 50%;
-
     transform: translate(-50%, -50%);
+    width: 80%;
+    max-width: 700px;
+    z-index: 2;
+}
 
+.contact-form-container {
     width: 90%;
-    max-width: 600px;
+    max-width: 350px;
+    margin: 0 auto;
+}
 
-    background: rgba(255, 255, 255, 0.9);
-
-    padding: 2rem;
-    border-radius: 12px;
-
-    box-shadow: 0 0 20px rgba(0,0,0,.2);
-  }
+#footer-container {
+  background: #132936;
+  width: 100%;
+  height: 500px;
+  padding: 3rem 0;
+}
