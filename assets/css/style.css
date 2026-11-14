@@ -123,34 +123,37 @@ position: absolute;
     top: 25%;
     left: 50%;
     transform: translateX(-50%);
-
     width: 80%;
     text-align: center;
     color: #fcf9f3;
     z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
  .container {
-    max-width: 1200px;
-    height: 200px;
-    margin: 0 auto;
-    padding: 0 1rem;
-    padding-top: 2rem;
+    max-width: 950px;
+    height: 300px;
+    margin:  6rem auto 0;
+    padding: 8rem 1.75rem;
     background:#040e14;
 }
 
 .mission-content-text {
   font-family: "Cal Sans", sans-serif ;
   font-size: 1.25rem;
+  padding-bottom: 4rem;
   color:#fcf9f3;
   text-align: center;
+
   
 }
 
 .mission-image-frame {
     position: relative;
     width: 100%;
-    padding: 4rem !important;
+    padding: 8rem !important;
     background: #506d7f;
     margin: 0 auto;
     box-sizing: border-box;
@@ -159,7 +162,7 @@ position: absolute;
 .mission-image {
     width: 100%;
     display: block;
-    height: clamp(300px, 50vw, 600px);
+    height: clamp(700px, 90vw, 1000px);
     object-fit: cover;
 }
 
