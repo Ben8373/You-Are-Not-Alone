@@ -81,6 +81,7 @@
 
 .navbar-nav .nav-item {
   position: relative;
+  font-family: "Manrope", sans-serif;
 }
 
 .navbar-nav .nav-item:not(:last-child)::after {
@@ -120,25 +121,71 @@
     box-shadow: none;
 }
 
+header{
+  position: relative;
+  min-height: 110vh;
+}
 
+header img {
+  width: 100%;
+  min-height: 155vh;
+  object-fit: cover;
+  object-position: center 25%;
+}
+
+.hero-content{
+  position: absolute;
+  left: 5%;
+  bottom: 15%;
+  color: #fcf9f3;
+  z-index: 10;
+  
+}
 
 .hero-title  {
-    font-size: clamp(2rem, 8vw, 4rem);
-    line-height: 1.1;
+    font-size: clamp(3rem, 10vw, 7rem);
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    line-height: 1;
     font-family: "Cal Sans", sans-serif;
+
 }
 
 .hero-sub-title {
-    font-size: clamp(1rem, 2vw, 1.5rem);
-    line-height: 1.5;
-    font-family: "Cal Sans", sans-serif;
-    margin-top: 1rem;
+    font-size: clamp(1rem, 1.25vw, 1.25rem);
+    line-height: 1.6;
+    font-family: "Manrope", sans-serif;
+    margin-top: 1.5rem;
     color: #fcf9f3;
+    font-size: 1.25rem;
+
 } 
+
+.cta-btn {
+    top: 210px;
+    position: relative;
+    display: inline-block;
+    padding: 1.2rem 3.75rem;
+    margin-top: 6rem;
+    background: transparent;
+    color: #fcf9f3;
+    border: 2px solid #fcf9f3;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    font-family: "Manrope", sans-serif;
+    
+}
+
+.cta-btn:hover {
+    background: #fff;
+    color: #040e14;
+}
 
 .mission-container {
 position: absolute;
-    top: 25%;
+    top: 65%;
     left: 50%;
     transform: translateX(-50%);
     width: 80%;
@@ -161,7 +208,7 @@ position: absolute;
 }
 
 .mission-content-text {
-  font-family: "Cal Sans", serif;
+  font-family: "Manrope", serif;
   font-size: 1.25rem;
   padding-bottom: 4rem;
   margin-top: 4rem;
@@ -190,6 +237,13 @@ position: absolute;
 
 .mission-overlay {
     position: relative;
+}
+
+.mission-title {
+    font-family: "Cal Sans", sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #fcf9f3;
 }
 
 
@@ -273,4 +327,36 @@ position: absolute;
   width: 100%;
   height: 500px;
   padding: 3rem 0;
+}
+
+@media (max-width: 768px) {
+  .hero-content {
+    position: absolute;
+    width: 80%;
+    top: 60%;
+    left: 50%;
+    margin: 0 auto;
+    transform: translate(-50%);
+  }
+}
+
+   .hero-title {
+        font-size: 4rem;
+        line-height: 1;
+    }
+
+    .hero-sub-title {
+        font-size: 1rem;
+        width: 90%;
+        margin: 1rem auto 0;
+    }
+
+@media (max-width: 768px) {
+
+    .cta-btn {
+        margin-top: 2rem;
+        padding: 1rem 2.5rem;
+        font-size: 1.1rem;
+    }
+
 }
