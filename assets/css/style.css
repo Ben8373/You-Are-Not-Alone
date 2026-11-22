@@ -65,11 +65,12 @@
 
 .navbar {
   top: 2.5rem;
-  position: relative;
+  position: absolute;
   width: 100%;
   z-index: 10;
   max-width: 1500px;
-  padding-left: 0.2rem;
+  padding-left: 0.4rem;
+  padding-right: 0.3rem;
 
 }
 
