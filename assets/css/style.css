@@ -81,16 +81,15 @@
  padding-top: 1rem;
 }
 
-.navbar-nav {
-    gap: 1 rem;
- 
+.nav-link {
+    padding: 0 1.5rem;
 }
 
 .navbar-nav .nav-link {
  color: #fcf9f3;
  width:auto;
- padding: 0.6rem 0;
- font-size: 1.1rem;
+ padding:  0.6rem;
+ font-size: 1.25rem;
 }
 
 .nav-item {
