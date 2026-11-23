@@ -81,6 +81,11 @@
  padding-top: 1rem;
 }
 
+.navbar-nav {
+    gap: 1 rem;
+ 
+}
+
 .navbar-nav .nav-link {
  color: #fcf9f3;
  width:auto;
