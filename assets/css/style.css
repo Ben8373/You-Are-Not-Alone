@@ -70,7 +70,7 @@
   z-index: 10;
   max-width: 1500px;
   padding-left: 0.4rem;
-  padding-right: 0.3rem;
+  padding-right: 0.4rem;
 
 }
 
@@ -81,14 +81,12 @@
  padding-top: 1rem;
 }
 
-.nav-link {
-    padding: 0 1rem;
-}
+
 
 .navbar-nav .nav-link {
  color: #fcf9f3;
  width:auto;
- padding:  0.6rem;
+ padding:  0 1.5rem;
  font-size: 1.25rem;
 }
 
