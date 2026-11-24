@@ -65,12 +65,13 @@
 
 .navbar {
   top: 2.5rem;
-  position: absolute;
+  position: relative;
   width: 100%;
   z-index: 10;
   max-width: 1500px;
-  padding-left: 0.4rem;
-  padding-right: 0.4rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  
 
 }
 
@@ -85,9 +86,10 @@
 
 .navbar-nav .nav-link {
  color: #fcf9f3;
- width:auto;
- padding:  0 1.5rem;
+ width: auto;
+ padding:   1rem;
  font-size: 1.25rem;
+ 
 }
 
 .nav-item {
@@ -472,7 +474,7 @@ header img {
     .nav-item:not(:last-child)::after {
         content: "|";
         color: rgba(252,249,243,0.5);
-        margin: 0 5rem;
+        margin: 0 3rem;
     }
 
     .nav-item {
